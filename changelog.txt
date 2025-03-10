@@ -1,0 +1,27 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.0.8
+Date: 2025-03-10
+  Changes:
+    - Forked to update to Factorio 2.0.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.7
+Date: 2021-10-18
+  Changes:
+    - Improved compatibility with Angel's infitite ores and Krastorio 2
+---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+Date: 2021-02-22
+  Changes:
+    - Removed changes to technologies. The drone/depot recipes are now available from the start of the game again.
+    - Set the default value of 'Drones require engine unit' to false. You need to re-enable this if you want it enabled.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 2021-02-21
+  Changes:
+    - Fixed crashing when 'mute drone sounds' was set to true
+    - Added thumbnail
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 2021-02-04
+  Changes:
+    - Added an option to disable the technology requirement

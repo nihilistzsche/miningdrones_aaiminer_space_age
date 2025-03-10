@@ -1,0 +1,14 @@
+{
+  "name": "miningdrones_aaiminer_space_age",
+  "version": "0.0.8",
+  "title": "Mining Drones - Mining Vehicle (Space Age Update)",
+  "author": "dromedar17, nihilistzsche (Spage Age Update)",
+  "contact": "",
+  "homepage": "",
+  "description": "Makes mining drones look like a small version of the miner from AAI vehicles.",
+  "dependencies": ["base >= 2.0.32",        
+            "Mining_Drones",            
+            "aai-vehicles-miner"
+   			],
+  "factorio_version": "2.0"
+}

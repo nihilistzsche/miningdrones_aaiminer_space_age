@@ -61,18 +61,18 @@ local mining_sound = sound_enabled
 
 local walking_sound = nil
 
-local scale = 0.5 * 0.7
+local scale = 0.5 * 0.2
 
 local animation = function(tint)
 	local anim = {
 		layers = {
 			{
-				width = 2024 / 8,
-				height = 1744 / 8,
+				width = 4048 / 8,
+				height = 3488 / 8,
 				frame_count = 2,
 				direction_count = 64,
 				scale = scale,
-				shift = { 0.0 * scale, -0.88125 * scale },
+				shift = { 0.0, -0.88125 * scale },
 				animation_speed = animation_speed,
 				max_advance = 1,
 				priority = "low",
@@ -90,14 +90,14 @@ local animation = function(tint)
 				},
 			},
 			{
-				width = 2024 / 8,
-				height = 1744 / 8,
+				width = 4048 / 8,
+				height = 3488 / 8,
 				frame_count = 2,
 				apply_runtime_tint = false,
 				tint = tint,
 				direction_count = 64,
 				scale = scale,
-				shift = { 0.0 * scale, -0.88125 * scale },
+				shift = { 0.0, -0.88125 * scale },
 				animation_speed = animation_speed,
 				max_advance = 1,
 				priority = "low",
@@ -116,12 +116,12 @@ local animation = function(tint)
 				},
 			},
 			{
-				width = 2048 / 8,
-				height = 1344 / 8,
+				width = 4096 / 8,
+				height = 2688 / 8,
 				frame_count = 2,
 				draw_as_shadow = true,
 				direction_count = 64,
-				shift = { 0.9 * scale, 0.15 * scale },
+				shift = { 0.9 * scale, 0.15 },
 				animation_speed = animation_speed,
 				max_advance = 1,
 				priority = "low",
